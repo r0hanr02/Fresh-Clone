@@ -1,5 +1,3 @@
-
-/* eslint-disable react/no-unknown-property */
 // import React from 'react'
 
 {
@@ -48,26 +46,24 @@ const Footer = () => {
               </g>
               <defs></defs>
             </svg> */}
-              <img
-                className="w-40 rounded-2xl "
-                src="src/data/fresh.png"
-                alt="Logo"
-              />
-            <p className="w-full text-md flex justify-center md:block font-semibold">© 2025 Fresh Limited</p>
+            <img
+              className="w-40 rounded-2xl "
+              src="src/data/fresh.png"
+              alt="Logo"
+            />
+            <p className="w-full text-md flex justify-center md:block font-semibold">
+              © 2025 Fresh Limited
+            </p>
           </div>
           <div className="w-[17%] hidden md:block">
             <p className="font-bold">Company</p>
             <ul>
               <li className="py-2 text-slate-600 font-semibold">About Us</li>
-              <li className="py-2 text-slate-600 font-semibold">
-              Corporate
-              </li>
+              <li className="py-2 text-slate-600 font-semibold">Corporate</li>
               <li className="py-2 text-slate-600 font-semibold">Careers</li>
               <li className="py-2 text-slate-600 font-semibold">Teams</li>
               <li className="py-2 text-slate-600 font-semibold">Fresh one</li>
-              <li className="py-2 text-slate-600 font-semibold">
-               Dineout
-              </li>
+              <li className="py-2 text-slate-600 font-semibold">Dineout</li>
             </ul>
           </div>
           <div className="w-[17%] hidden md:block">
@@ -113,23 +109,25 @@ const Footer = () => {
               </ul>
             </div>
             <div className="mt-20">
-              <select id="dropdown"
-               className="w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-orange-500">
-                <option
-                className="text-slate-600 " 
-                value="">676 cities</option>
-                <option
-                className="text-slate-600 " 
-                value="USA">Mumbai</option>
-                <option
-                className="text-slate-600 " 
-                value="Canada">Gurgaon</option>
-                <option
-                className="text-slate-600 " 
-                value="India">Hydrabad</option>
-                <option
-                className="text-slate-600 " 
-                value="Australia">Punjab</option>
+              <select
+                id="dropdown"
+                className="w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-orange-500"
+              >
+                <option className="text-slate-600 " value="">
+                  676 cities
+                </option>
+                <option className="text-slate-600 " value="USA">
+                  Mumbai
+                </option>
+                <option className="text-slate-600 " value="Canada">
+                  Gurgaon
+                </option>
+                <option className="text-slate-600 " value="India">
+                  Hydrabad
+                </option>
+                <option className="text-slate-600 " value="Australia">
+                  Punjab
+                </option>
               </select>
             </div>
           </div>
