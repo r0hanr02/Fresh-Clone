@@ -5,7 +5,7 @@ import React, { useEffect, useState } from "react";
 const MainComponent = () => {
   const filter = [
     "Fast Delivery",
-    "New on Swiggy",
+    "New",
     "Rating 4.0+",
     "Pure Veg",
     "Offers",

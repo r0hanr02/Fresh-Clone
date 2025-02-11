@@ -1,3 +1,4 @@
+
 /* eslint-disable react/no-unknown-property */
 // import React from 'react'
 
@@ -10,7 +11,7 @@ const Footer = () => {
       <div className="flex flex-col bg-slate-100 items-center justify-center">
         <div className="w-full md:w-9/12 flex flex-col md:flex-row items-center justify-around border-t-2 border-black  ">
           <p className="w-full text-2xl font-bold m ">
-            For better experience,download the Swiggy app now
+            For better experience,download the Fresh app now
           </p>
           <div className="md:w-full flex m-3 justify-center">
             <img
@@ -27,7 +28,7 @@ const Footer = () => {
         </div>
         <div className="w-full md:w-9/12 flex items-center justify-center md:items-start md:m-10 md:justify-between">
           <div className="w-full md:w-[30%] flex flex-col items-center md:items-start justify-center">
-            <svg
+            {/* <svg
               xmlns="http://www.w3.org/2000/svg"
               width="160"
               height="50"
@@ -46,21 +47,26 @@ const Footer = () => {
                 ></path>
               </g>
               <defs></defs>
-            </svg>
-            <p className="w-full text-md flex justify-center md:block font-semibold">© 2025 Swiggy Limited</p>
+            </svg> */}
+              <img
+                className="w-40 rounded-2xl "
+                src="src/data/fresh.png"
+                alt="Logo"
+              />
+            <p className="w-full text-md flex justify-center md:block font-semibold">© 2025 Fresh Limited</p>
           </div>
           <div className="w-[17%] hidden md:block">
             <p className="font-bold">Company</p>
             <ul>
               <li className="py-2 text-slate-600 font-semibold">About Us</li>
               <li className="py-2 text-slate-600 font-semibold">
-                Swiggy Corporate
+              Corporate
               </li>
               <li className="py-2 text-slate-600 font-semibold">Careers</li>
               <li className="py-2 text-slate-600 font-semibold">Teams</li>
-              <li className="py-2 text-slate-600 font-semibold">Swiggy one</li>
+              <li className="py-2 text-slate-600 font-semibold">Fresh one</li>
               <li className="py-2 text-slate-600 font-semibold">
-                Swiggy Dineout
+               Dineout
               </li>
             </ul>
           </div>
@@ -129,7 +135,7 @@ const Footer = () => {
           </div>
           <div className="w-[17%] hidden md:block">
             <div>
-              <p className="font-bold hidden md:block">Life at Swiggy</p>
+              <p className="font-bold hidden md:block">Life at Fresh</p>
               <ul className="">
                 <li className="py-2 text-slate-600 font-semibold">
                   Explore with us{" "}

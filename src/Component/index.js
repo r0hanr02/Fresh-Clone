@@ -1,6 +1,6 @@
 export {default as Footer} from "./Footer"
 export {default as NavBar} from "./NavBar"
-export {default as FIrstSlider} from "./FIrstSlider"
+export {default as FirstSlider} from "./FirstSlider"
 export {default as SecSlider} from "./SecSlider"
 export {default as MainComponent} from "./MainComponent"
 export {default as MainComps} from "./MainComps"

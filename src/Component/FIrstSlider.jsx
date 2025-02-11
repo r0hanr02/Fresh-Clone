@@ -4,7 +4,9 @@ import { MdNavigateNext } from "react-icons/md";
 import { MdNavigateBefore } from "react-icons/md";
 
 const FirstSlider = () => {
+
   const [slide, setSlide] = useState(0);
+  
   const images = [
     "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/PC_Mweb/Pizza.png",
     "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/PC_Mweb/Pasta.png",
@@ -39,7 +41,7 @@ const FirstSlider = () => {
   return (
     <div className="flex flex-col items-center justify-center">
       <div className="w-full md:w-9/12 flex justify-around md:justify-between  my-5">
-        <p className="text-2xl m-2 font-bold">What&apos;s on your mind?</p>
+        <p className="text-2xl m-2 font-bold">What's on your mind?</p>
         <div className="flex gap-3">
           <div
             onClick={previous}
